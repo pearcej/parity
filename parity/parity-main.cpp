@@ -37,7 +37,7 @@ void print_bitstring(const char byte[]) { //This is pass by const array, making 
 //FIXME: Create a new function that when called will print out ASCII art as a good-bye.
 
 
-bool if_binary_evenparity(char byte[8]) { //This cannot be passed with const
+bool if_binary_evenparity(char byte[8]) { 
 	/**
 	This function takes an 8-bit byte as input,
 	if the first 7 bits consist solely of 0s and 1s
