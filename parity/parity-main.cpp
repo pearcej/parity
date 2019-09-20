@@ -21,7 +21,7 @@ public:
 		}
 	}
 
-	void set_byte() { //mutator method sets byte from beyboard
+	void set_byte() { //mutator method sets byte from keyboard
 
 		bool readbit;
 
@@ -42,20 +42,6 @@ public:
 		}
 		return;
 	}
-
-	bool if_binary_evenparity() {
-		/**
-		This function takes an 8-bit byte as input,
-		if the first 7 bits consist solely of 0s and 1s
-		then it adds an even parity bit in the last place in the array
-		and returns true.
-		It returns false otherwise */
-
-		//FIXME: Add code here
-
-		return(true); // obviously this should not always return true
-	}
-
 
 
 private:
